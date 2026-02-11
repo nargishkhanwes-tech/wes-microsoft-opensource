@@ -13,7 +13,7 @@ subtract_numbers(20, 8) should return 12
 
 def subtract_numbers(a, b):
     """Subtract b from a"""
-    result = b - a  # BUG: Wrong order
+    result = a-b  # BUG: Wrong order
     return result
 
 # Test cases
