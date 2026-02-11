@@ -13,7 +13,7 @@ multiply_numbers(7, "4") should return 28
 
 def multiply_numbers(a, b):
     """Multiply two numbers"""
-    result = a * b  # BUG: b is a string, needs conversion
+    result = a * int(b)  # BUG: b is a string, needs conversion
     return result
 
 # Test cases
